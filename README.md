@@ -1,8 +1,6 @@
 # Azure Function on Visual Studio Code (VSCode)
 Note: Creating first Azure Function on Windows and Visual Studio Code with GitHub Repository.   
 
-_[[TOC]]_
-
 ## 1. Create GitHub Repo
 Prerequisite: [Sign up](https://github.com/join) for new GitHub account if you don't have already.
 
@@ -100,7 +98,7 @@ Prerequisite: Successfully Build project (`http.csproj`) and Azure Subscription.
 <img src=".images\DeployToAzureFunction.png" height=450 width=650 border=1>
 
 1. Create Azure Fucntion manually or use VSCode to Deploy directly with required inputs to Azure. <br>
-<img src=".images\CreateAzureFunction.png" height=350 width=600 border=1> <br>
+<img src=".images\CreateAzureFunction.png" height=400 width=600 border=1> <br>
 
 2. Sign-in to Azure using VSCode and Select the Azure Function target.<br>
 <img src=".images\DeployToFunctionNSCSA.png" height=150 width=600 border=1> <br>
@@ -118,11 +116,13 @@ Prerequisite: Successful deployment to Azure Function.
 
 Prerequisite: GitHub Repo and Windows Git.
 
-<img src=".images\CommitAndPushToRepo.png" height=450 width=650 border=1>
+<img src=".images\CommitAndPushToRepo.png" height=650 width=650 border=1>
 
 ## 12. Continuous Deployment to Azure Function using GitHub Action
 
 Prerequisite: GitHub Repo with updated code base.
+
+Setup GitHub Action Workflow for Azire Function Deployment or Connect to GitHub from Azure Function.
 
 ---
 Technology Used
