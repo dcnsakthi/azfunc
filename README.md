@@ -31,7 +31,6 @@ Prerequisite: New directory (e.g., http) if you want to place generated code int
 4. Select the runtime as `.NET Core 3 LTS` <br>
 <img src=".images\SelectDotNetRuntime.png" height=150 width=600 border=1> <br>
 5. Enter function name and namespace `nscsa` (as per your requirements). <br>
-<img src=".images\SelectDotNetRuntime.png" height=150 width=600 border=1> <br>
 6. Select Access Rights as `Anonymous` if you want to make this API as public. <br>
 <img src=".images\SelectAccessRights.png" height=150 width=600 border=1> <br>
 
