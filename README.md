@@ -85,9 +85,9 @@ Prerequisite: Attach to .NET Functions by `Start Debugging or Press F5` and Web 
 
 Prerequisite: Attach to .NET Functions by `Start Debugging or Press F5` and Postman.
 
-1. http URL requset (`http://localhost:7071/api/nscsa`) using Postman <br>
+1. http URL request (`http://localhost:7071/api/nscsa`) using Postman <br>
 <img src=".images\PostmanHttpRequest.png" height=200 width=600 border=1> <br>
-2. http URL requset with Query Parameter (`http://localhost:7071/api/nscsa?name=World`) using Postman <br>
+2. http URL request with Query Parameter (`http://localhost:7071/api/nscsa?name=World`) using Postman <br>
 <img src=".images\PostmanHttpRequestParam.png" height=200 width=600 border=1>
 
 ## 9. Deploy to Azure Function using VSCode
@@ -96,7 +96,7 @@ Prerequisite: Successfully Build project (`http.csproj`) and Azure Subscription.
 
 <img src=".images\DeployToAzureFunction.png" height=450 width=650 border=1>
 
-1. Create Azure Fucntion manually or use VSCode to Deploy directly with required inputs to Azure. <br>
+1. Create Azure Function manually or use VSCode to Deploy directly with required inputs to Azure. <br>
 <img src=".images\CreateAzureFunction.png" height=400 width=600 border=1> <br>
 
 2. Sign-in to Azure using VSCode and Select the Azure Function target.<br>
@@ -106,9 +106,9 @@ Prerequisite: Successfully Build project (`http.csproj`) and Azure Subscription.
 
 Prerequisite: Successful deployment to Azure Function.
 
-1. http URL requset with Query Parameter (`https://nscsa.azurewebsites.net/api/nscsa?name=Azure`) using Browser <br>
+1. http URL request with Query Parameter (`https://nscsa.azurewebsites.net/api/nscsa?name=Azure`) using Browser <br>
 <img src=".images\HttpAzureFunctionResponse.png" height=80 width=600 border=1><br>
-2. http URL requset with Query Parameter (`https://nscsa.azurewebsites.net/api/nscsa?name=Azure`) using Postman <br>
+2. http URL request with Query Parameter (`https://nscsa.azurewebsites.net/api/nscsa?name=Azure`) using Postman <br>
 <img src=".images\PostmanHttpAzureRequestParam.png" height=200 width=600 border=1><br>
 
 ## 11. Commit and Push to GitHub
@@ -121,7 +121,7 @@ Prerequisite: GitHub Repo and Windows Git.
 
 Prerequisite: GitHub Repo with updated code base.
 
-Setup GitHub Action Workflow for Azire Function Deployment or Connect to GitHub from Azure Function.
+Setup GitHub Action Workflow for Azure Function Deployment or Connect to GitHub from Azure Function.
 
 ---
 Technology Used
