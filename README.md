@@ -32,7 +32,7 @@ Prerequisite: New directory (e.g., http) if you want to place generated code int
 <img src=".images\SelectDotNetRuntime.png" height=150 width=600 border=1> <br>
 5. Enter function name and namespace `nscsa` (as per your requirements). <br>
 6. Select Access Rights as `Anonymous` if you want to make this API as public. <br>
-<img src=".images\SelectAccessRights.png" height=150 width=600 border=1> <br>
+<img src=".images\SelectAccessRIghts.png" height=150 width=600 border=1> <br>
 
 ## 5. Review the code under `http` directory and changes as required
 
